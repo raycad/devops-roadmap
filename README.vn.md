@@ -30,5 +30,7 @@ Thiết kế và kiến trúc là cốt lõi trong việc tạo ra khác biệt 
 10. Không ngừng học hỏi, rèn luyện, nghiên cứu và tìm hiểu những công nghệ kỹ thuật mới để cải thiện hệ thống của mình.
 
 Trên đây là 10 nguyên tắc cơ bản của một DevOps theo quan điểm cá nhân của mình, để xem đầy đủ bạn có thể đọc bản tiếng Anh và tham khảo kho sách cùng 1 số recommendations của mình:
+
 https://github.com/raycad/devops-roadmap/blob/master/README.md
+
 https://github.com/raycad/devops-roadmap/tree/master/books
