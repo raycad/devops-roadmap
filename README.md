@@ -193,18 +193,10 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 ![Model Feedback Loop](./docs/images/tensorflow_serving.png)
 
 ## 4. Books Recommendation
+* Best Seller in Computer Neural Networks on Amazon 2018: *Hands-On Machine Learning with Scikit-Learn and TensorFlow* https://github.com/raycad/devops-roadmap/blob/master/books/ai/ml/hands_on_machine_learning_with_scikit_learn_and_tensorflow.pdf
 
-## 5. References
-https://github.com/josephmisiti/awesome-machine-learning
+* System Design Primer: https://github.com/raycad/devops-roadmap/blob/master/books/software-architecture/system_design_primer.pdf
 
-https://github.com/ujjwalkarn/Machine-Learning-Tutorials
+* Programming Collective Intelligence: https://github.com/raycad/devops-roadmap/blob/master/books/ai/ml/oreilly_programming_collective_intelligence_aug_2007.pdf
 
-https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d
-
-https://medium.com/level-up-web/developer-roadmaps-all-in-one-place-75c0402db0e0
-
-https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9
-
-https://www.svds.com/open-source-toolkits-speech-recognition
-
-https://github.com/Microsoft/CNTK
+* Azure Cloud Architecture: https://github.com/raycad/devops-roadmap/blob/master/books/software-architecture/azure_cloud_architecture.pdf
