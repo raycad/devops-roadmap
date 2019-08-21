@@ -211,6 +211,8 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 | **Performance** | Latencies in minutes to hours | Requires latency in the order of seconds or milliseconds |
 | **Analyses** | Complex analytics | Simple response functions, aggregates, and rolling metrics |
 
+**For more details please have a look at my other repo**: https://github.com/raycad/stream-processing
+
 ## 4. Machine Learning
 ### 4.1. What is Machine Learning?
 * Machine learning is creating and using models that are learned from data.
@@ -251,3 +253,5 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 # 6. References
 
 https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d
+
+https://github.com/raycad/stream-processing
