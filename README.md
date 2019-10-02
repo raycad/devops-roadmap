@@ -169,15 +169,15 @@ A collection of **LARGE Datasets**, so it can **NOT be Processed** by traditiona
 * Anomaly Detection
 
 ### 3.4. Big Data Solutions
-* <H3>Distributed File System</H3>
+* **Distributed File System**
 
 ![Distributed File System](./docs/images/distributed_file_system.png)
 
-* <H3>Distributed Database</H3>
+* **Distributed Database**
 
 ![Distributed Database](./docs/images/distributed_database.png)
 
-* <H3>Distributed Computation</H3>
+* **Distributed Computation**
 
 ![Distributed Computation](./docs/images/distributed_computation.png)
 
@@ -215,7 +215,7 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 * Predictive Maintenance, (e.g. Machine Learning Techniques for Predictive Maintenance)
 
 
-<H3>Batch Processing vs Streaming Processing</H3>
+**Batch Processing vs Streaming Processing**
 
 | | Batch Processing | Stream Processing |
 |-|-|-|
@@ -236,7 +236,7 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
      * Fraudulent credit card transaction prediction
      * A product or advertisement recommendation engine
 
-<H3>Data Science Fields</H3>
+**Data Science Fields**
 
 ![Data Science Fields](./docs/images/data_science_fields.png)
 
@@ -246,11 +246,11 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 ### 4.3. Machine Learning: Process
 ![Machine Learning: Process](./docs/images/machine_learning_process.png)
 
-* <H3>Model Feedback Loop</H3>
+* **Model Feedback Loop**
 
 ![Model Feedback Loop](./docs/images/model_feedback_loop.png)
 
-* <H3>Deep Learning Model Build/Deployment</H3>
+* **Deep Learning Model Build/Deployment**
 
 ![Model Feedback Loop](./docs/images/tensorflow_serving.png)
 
