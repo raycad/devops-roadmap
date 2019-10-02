@@ -182,7 +182,7 @@ A collection of **LARGE Datasets**, so it can **NOT be Processed** by traditiona
 ![Distributed Computation](./docs/images/distributed_computation.png)
 
 ### 3.5. How Does Big Data Analysis Work?
-![Distributed Computation](./docs/images/bigdata_flow.png)
+![Distributed Computation](./docs/images/bigdata_analysis_overview.png)
 
 ### 3.6. Why Messing?
 * Data usually flows from one application to another. It is produced by one application and used by one or more other applications. 
@@ -195,12 +195,25 @@ A collection of **LARGE Datasets**, so it can **NOT be Processed** by traditiona
 
 A **flexible** and **scalable** solution is to use a **message broker** or **messaging system**. Instead of applications connecting directly to each other, they connect to a message broker or a messaging system. This architecture makes it easy to add producers or consumers to a data pipeline.
 
-### 3.7. What is Batch/Stream Processing?
-* Batch processing is processing  a large volume of data at once.
+### 3.7. Batch Processing vs Stream Processing
+* **Batch Processing**\
+  In batch processing, newly arriving data elements are collected into a group. The whole group is then processed at a future time (as a batch, hence the term “batch processing”). Exactly when each group is processed can be determined in a number of ways–for example, it can be based on a scheduled time interval (**e.g.** every five minutes, process whatever new data has been collected) or on some triggered condition (e.g. process the group as soon as it contains five data elements or as soon as it has more than 1MB of data).
 
-  **Example** *processing  all the transactions that have been performed by a major ecommerce firm in a week. This data can tune into millions of records for a day which can be stored as a file/records etc. This particular file will undergo processing at the end of the day for various analysis the company wants to do and naturally it will take large amount of time for this to be processed. That would be what Batch processing is. And what Hadoop does is it provides Map Reduce as a processing tool for these large files which can be years of data stored monthly of data etc.*
+  ![Batch Processing](./docs/images/batch_processing.png)
 
-* Stream processing changes the approach for processing. What it does is it applies the business logic to every transaction that is being recorded for the above ecommerce portal. It applies business logic to every event that is being captured rather than store all the events and then process them, which turns out now that whatever analysis is being done reflects the real state of the data at this instance. So, it becomes real time. And therefore stream processing is also associated with Real time.
+  **Micro-Batch** is frequently used to describe scenarios where batches are small and/or processed at small intervals. Even though processing may happen as often as once every few minutes, data is still processed a batch at a time.
+
+* **Stream Processing**\
+  In stream processing, each new piece of data is processed when it arrives. Unlike batch processing, there is no waiting until the next batch processing interval and data is processed as individual pieces rather than being processed a batch at a time.
+
+  ![Stream Processing](./docs/images/streaming_processing.png)
+
+**Use cases:**
+* Algorithmic Trading, Stock Market Surveillance
+* Monitoring a production line
+* Intrusion, Surveillance and Fraud Detection ( e.g. Uber)
+* Predictive Maintenance, (e.g. Machine Learning Techniques for Predictive Maintenance)
+
 
 <H3>Batch Processing vs Streaming Processing</H3>
 
@@ -252,6 +265,6 @@ A **flexible** and **scalable** solution is to use a **message broker** or **mes
 
 # 6. References
 
-https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d
-
 https://github.com/raycad/stream-processing
+
+https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d
