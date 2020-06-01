@@ -1,3 +1,8 @@
+## Translations:
+
+* [English](README.md)
+* [中文版](README.cn.md)
+
 # 1. DevOps
 
 ### 1.1. What is DevOps?
